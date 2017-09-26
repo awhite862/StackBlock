@@ -13,7 +13,7 @@ Sandeep Sharma and Garnet K.-L. Chan
 #include <newmatio.h>
 #include "npdm.h"
 #include "sweep.h"
-#include "sweepgenblock.h"
+#include <modules/generate_blocks/sweepgenblock.h>
 #include "Stackdensity.h"
 //#include "sweeponepdm.h"  // For legacy version of 1pdm
 //#include "sweeptwopdm.h"  // For legacy version of 2pdm

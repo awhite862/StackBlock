@@ -6,8 +6,8 @@ This program is integrated in Molpro with the permission of
 Sandeep Sharma and Garnet K.-L. Chan
 */
 
-#include "npdm_operators.h"
-#include "npdm_spin_ops.h"
+#include <modules/npdm/npdm_operators.h>
+#include <modules/npdm/npdm_spin_ops.h>
 #include "pario.h"
 
 //FIXME update all these to allow RI with any orbitals, not just 1-site

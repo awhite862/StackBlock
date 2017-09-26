@@ -24,10 +24,10 @@ Sandeep Sharma and Garnet K.-L. Chan
 #include "operatorloops.h"
 #include "StackMatrix.h"
 #include <string>
-#include "three_index_ops.h"
-#include "four_index_ops.h"
-#include "para_array_3d.h"
-#include "para_array_4d.h"
+#include "modules/three_index_ops/three_index_ops.h"
+#include "modules/four_index_ops/four_index_ops.h"
+#include "modules/three_index_ops/para_array_3d.h"
+#include "modules/four_index_ops/para_array_4d.h"
 #include <tuple>
 
 namespace SpinAdapted{

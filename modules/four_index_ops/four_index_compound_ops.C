@@ -6,8 +6,8 @@ This program is integrated in Molpro with the permission of
 Sandeep Sharma and Garnet K.-L. Chan
 */
 
-#include "npdm_operators.h"
-#include "npdm_spin_ops.h"
+#include <modules/npdm/npdm_operators.h>
+#include <modules/npdm/npdm_spin_ops.h>
 #include "pario.h"
 
 namespace SpinAdapted{

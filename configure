@@ -1,0 +1,37 @@
+#!/bin/bash
+CXX=
+BUILD_TYPE=
+GENERATOR_UNIX="Unix Makefiles"
+GENERATOR=$GENERATOR_UNIX
+WITH_MPI="FALSE"
+
+while [ $# -gt 0 ]; do
+    case $1 in
+        gcc )   CXX="g++"
+            ;;
+        intel ) CXX="icpc"
+            ;;
+        debug ) BUILD_TYPE="DEBUG"
+            ;;
+        relwdeb ) BUILD_TYPE="RELWITHDEBINFO"
+            ;;
+        release ) BUILD_TYPE="RELEASE"
+            ;;
+        with-mpi ) WITH_MPI="TRUE"
+    esac
+    shift
+done
+
+if [ "x$BUILD_TYPE" == "x" ]; then
+    BUILD_TYPE="DEBUG"
+fi
+
+if [ "x$CXX" == "x" ]; then
+    CXX="g++"
+fi
+
+mkdir build
+cd build
+cmake -G "$GENERATOR" \
+-D CMAKE_BUILD_TYPE="$BUILD_TYPE" \
+-D CMAKE_WITH_MPI="$WITH_MPI" ..

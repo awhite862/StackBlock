@@ -7,8 +7,8 @@ Sandeep Sharma and Garnet K.-L. Chan
 */
 
 #include "global.h"
-#include "npdm_patterns.h"
-#include "npdm_operators.h"
+#include <modules/npdm/npdm_patterns.h>
+#include <modules/npdm/npdm_operators.h>
 #include "pario.h"
 
 namespace SpinAdapted{

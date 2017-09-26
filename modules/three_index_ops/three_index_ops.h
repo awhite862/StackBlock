@@ -1,7 +1,7 @@
 #ifndef THREE_INDEX_OPS_H
 #define THREE_INDEX_OPS_H
 
-#include "StackBaseOperator.h"
+#include <StackBaseOperator.h>
 
 namespace SpinAdapted{
 

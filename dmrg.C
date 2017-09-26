@@ -15,9 +15,9 @@ Sandeep Sharma and Garnet K.-L. Chan
 #include "orbstring.h"
 #include "least_squares.h"
 #include <include/communicate.h>
-#include "sweepgenblock.h"
+#include "modules/generate_blocks/sweepgenblock.h"
 #include "stdlib.h"
-#include "npdm.h"
+#include "modules/npdm/npdm.h"
 
 #ifdef _OPENMP
 #include <omp.h>
@@ -41,10 +41,10 @@ Sandeep Sharma and Garnet K.-L. Chan
 #include "davidson.h"
 #include "rotationmat.h"
 #include "sweep.h"
-#include "sweepCompress.h"
-#include "sweepResponse.h"
+#include "modules/ResponseTheory/sweepCompress.h"
+#include "modules/ResponseTheory/sweepResponse.h"
 #include "dmrg_wrapper.h"
-#include "sweeponepdm.h"
+#include "modules/onepdm/sweeponepdm.h"
 #include "screen.h"
 #ifndef SERIAL
 #include <boost/mpi/environment.hpp>

@@ -9,7 +9,7 @@ Sandeep Sharma and Garnet K.-L. Chan
 #include "stackguess_wavefunction.h"
 #include "operatorfunctions.h"
 #include "sweep_params.h"
-#include "sweepgenblock.h"
+#include "modules/generate_blocks/sweepgenblock.h"
 #include "sweep.h"
 #include "global.h"
 #include "solver.h"

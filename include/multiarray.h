@@ -11,7 +11,9 @@ Sandeep Sharma and Garnet K.-L. Chan
 #define multi_array_h
 #include <vector>
 #include <string>
+#include <cstring>
 #include <cassert>
+#include <iostream>
 #include <boost/serialization/base_object.hpp>
 #include <boost/serialization/serialization.hpp>
 

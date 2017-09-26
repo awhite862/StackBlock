@@ -7,8 +7,8 @@ Sandeep Sharma and Garnet K.-L. Chan
 */
 
 #include "global.h"
-#include "npdm_patterns.h"
-#include "npdm_operators.h"
+#include <modules/npdm/npdm_patterns.h>
+#include <modules/npdm/npdm_operators.h>
 
 //FIXME streamline code and reuse??  functions are almost identical here
 //template these???
